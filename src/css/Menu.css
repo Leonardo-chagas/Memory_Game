@@ -1,0 +1,23 @@
+#input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1000px;
+}
+
+#input-row {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+#warning {
+    color: red;
+}
+
+#menu-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
