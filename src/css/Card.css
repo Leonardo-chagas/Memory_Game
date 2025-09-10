@@ -7,6 +7,18 @@
     animation: 2s hideCard linear;
 }
 
+.card.active{
+transform: rotateY(0);
+}
+
+.card.active.correct{
+    background-color: green;
+}
+
+.card.active.wrong{
+    background-color: red;
+}
+
 @keyframes hideCard{
     0%, 70%{
         transform: rotateY(0);
@@ -20,6 +32,10 @@
     transform: scale(0);
     transition: transform 0.5s;
     animation: 2s hideIcon linear;
+}
+
+.icon.active{
+    transform: scale(1);
 }
 
 @keyframes hideIcon{
